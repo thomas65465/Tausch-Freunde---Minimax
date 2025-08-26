@@ -1,0 +1,27 @@
+{
+  "name": "Sticker Sammler",
+  "short_name": "StickerSammler",
+  "description": "Die ultimative App für Kinder und Eltern, um Sticker-Sammelaktionen zu verfolgen, mit Freunden zu tauschen und gemeinsam Spaß zu haben.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fafafa",
+  "theme_color": "#0ea5e9",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/images/avatars/avatar_star.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/images/avatars/avatar_star.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "categories": ["games", "entertainment", "social"],
+  "lang": "de",
+  "scope": "/"
+}
