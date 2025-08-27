@@ -331,8 +331,8 @@ const tradesSubscription = supabase
 // src/lib/supabase.ts
 import { createClient } from '@supabase/supabase-js';
 
-const supabaseUrl = 'https://your-project.supabase.co';
-const supabaseAnonKey = 'your-anon-key';
+const supabaseUrl = 'https://ufnzoolmkglrbsbeufwu.supabase.co';
+const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVmbnpvb2xta2dscmJzYmV1Znd1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTU3Njg0MjMsImV4cCI6MjA3MTM0NDQyM30.Jn1dtEvYlNwIvjwhZQhvI4iMXsEWLUQMBA9pc-wYMfU';
 
 export const supabase = createClient(supabaseUrl, supabaseAnonKey);
 ```

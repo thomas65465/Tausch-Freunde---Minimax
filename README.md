@@ -71,14 +71,20 @@ npm run build
 1. **Projekt erstellen**: Neues Projekt auf [supabase.com](https://supabase.com)
 2. **Datenbank setup**: SQL-Dateien aus `/supabase/tables/` ausführen
 3. **Edge Functions deployen**: Funktionen aus `/supabase/functions/`
-4. **Konfiguration**: `src/lib/supabase.ts` mit Ihren Keys aktualisieren
+4. **Konfiguration**: `.env` anhand von `.env.example` mit Ihren Keys anlegen
 
 ### Environment-Variablen
 
 ```javascript
 // src/lib/supabase.ts
-const supabaseUrl = 'YOUR_SUPABASE_URL';
-const supabaseAnonKey = 'YOUR_ANON_KEY';
+const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
+const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
+```
+
+```bash
+# .env
+VITE_SUPABASE_URL=https://ufnzoolmkglrbsbeufwu.supabase.co
+VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVmbnpvb2xta2dscmJzYmV1Znd1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTU3Njg0MjMsImV4cCI6MjA3MTM0NDQyM30.Jn1dtEvYlNwIvjwhZQhvI4iMXsEWLUQMBA9pc-wYMfU
 ```
 
 ## 📱 Screenshots
