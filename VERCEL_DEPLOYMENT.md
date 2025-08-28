@@ -53,8 +53,8 @@ Install Command: npm install
 2. **Fügen Sie folgende Variablen hinzu:**
 
 ```
-VITE_SUPABASE_URL=https://ihre-project-id.supabase.co
-VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+VITE_SUPABASE_URL=https://ufnzoolmkglrbsbeufwu.supabase.co
+VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVmbnpvb2xta2dscmJzYmV1Znd1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTU3Njg0MjMsImV4cCI6MjA3MTM0NDQyM30.Jn1dtEvYlNwIvjwhZQhvI4iMXsEWLUQMBA9pc-wYMfU
 ```
 
 ### **Wo finde ich diese Werte?**
@@ -99,7 +99,7 @@ VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
 ### **Aktuelle Architektur:**
 ```
 Frontend (React): https://ihr-app-name.vercel.app
-Backend (Supabase): https://ihre-project-id.supabase.co
+Backend (Supabase): https://ufnzoolmkglrbsbeufwu.supabase.co
 ```
 
 ### **Vorher vs. Nachher:**
